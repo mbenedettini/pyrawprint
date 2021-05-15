@@ -39,4 +39,4 @@ Filename: "{app}\install_service.bat"; \
 
 [UninstallRun]
 Filename: "{app}\uninstall_service.bat"; \
-    Flags: runhidden;
+    Flags: runhidden; RunOnceId: "UninstallService";
